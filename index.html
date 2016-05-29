@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<title>Jquery İle Hepsini Seç</title>
+</head>
+<body>
+	
+	<form action="gonder.php" method="post">
+		<table  border="1">
+			<thead>
+				<tr>
+					<th><input type="checkbox" class="tum" value="0" /></th>
+					<th>Gönderen Adı</th>
+					<th>İşlemler</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" name="secili[]" value="1"/></td>
+					<td>Samet Şirinel</td>
+					<td>Düzenle | Sil </td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="secili[]" value="2"/></td>
+					<td>Samet Şirinel</td>
+					<td>Düzenle | Sil </td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="secili[]" value="3"/></td>
+					<td>Samet Şirinel</td>
+					<td>Düzenle | Sil </td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="secili[]" value="4"/></td>
+					<td>Samet Şirinel</td>
+					<td>Düzenle | Sil </td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="secili[]" value="5"/></td>
+					<td>Samet Şirinel</td>
+					<td>Düzenle | Sil </td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<select name="" id="">
+							<option value="">Hepsini Sil</option>
+							<option value="">Okundu İşaretle</option>
+							<option value="">Okunmadı İşaretle</option>
+						</select>
+						<input type="submit" value="Gönder"/>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
